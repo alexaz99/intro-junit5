@@ -22,6 +22,12 @@
             <name>John Thompson</name>
             <email>john@springframework.guru</email>
         </developer>
+
+        <developer>
+            <id>az</id>
+            <name>Alex Zakotyansky</name>
+            <email>alexaz99@yahoo.com</email>
+        </developer>
     </developers>
 
     <inceptionYear>2018</inceptionYear>
@@ -39,5 +45,8 @@
         <java.version>11</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
+
+        <!-- A.Z. Add JUnit version. Call this property-->
+        <junit-platform.version>5.8.0</junit-platform.version>
     </properties>
 </project>
