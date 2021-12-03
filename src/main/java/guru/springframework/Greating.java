@@ -15,4 +15,5 @@ public class Greating {
     public String helloWorld(String name){
         return HELLO + " " + name;
     }
+
 }
